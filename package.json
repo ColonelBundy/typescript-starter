@@ -1,0 +1,22 @@
+{
+  "name": "typescript-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist/*",
+    "compile": "npm run clean && tsc && node dist/index.js",
+    "dev": "nodemon -e ts --exec \"npm run compile\""
+  },
+  "author": "makkesk8 <makkesk8@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "app-module-path": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.12",
+    "nodemon": "^1.11.0",
+    "rimraf": "^2.6.1",
+    "typescript": "^2.2.2"
+  }
+}
