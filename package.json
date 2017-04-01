@@ -11,9 +11,11 @@
   "author": "makkesk8 <makkesk8@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "app-module-path": "^2.2.0"
+    "app-module-path": "^2.2.0",
+    "express": "^4.15.2"
   },
   "devDependencies": {
+    "@types/express": "^4.0.35",
     "@types/node": "^7.0.12",
     "nodemon": "^1.11.0",
     "rimraf": "^2.6.1",
