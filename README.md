@@ -15,7 +15,7 @@ Check ```tsconfig.json``` and ```./src/index``` for more details.
 ```
 MIT License
 
-Copyright (c) 2017 Makkesk8 (makkesk8@gmail.com)
+Copyright (c) 2017 ColonelBundy (colonelbundy@gmail.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
