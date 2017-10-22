@@ -3,8 +3,8 @@
 ## Running the example
 
 ```
-npm install
-npm run dev
+yarn install
+yarn dev
 ```
 
 ## Module resolution
@@ -15,7 +15,7 @@ Check ```tsconfig.json``` and ```./src/index``` for more details.
 ```
 MIT License
 
-Copyright (c) 2017 Makkesk8 (makkesk8@gmail.com)
+Copyright (c) 2017 Colonelbundy (colonelbundy@gmail.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
