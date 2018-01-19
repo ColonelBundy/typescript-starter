@@ -7,10 +7,6 @@ yarn install
 yarn dev
 ```
 
-## Module resolution
-The base path for ``` require ``` and ``` import ``` statements have been modified to point to ```./src/app/*``` unless not found in ```node_modules```   
-Check ```tsconfig.json``` and ```./src/index``` for more details.
-
 ## License
 ```
 MIT License

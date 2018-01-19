@@ -102,7 +102,6 @@
       "check-type",
       "check-typecast"
     ],
-    // TSLint ESLint rules.
     "no-constant-condition": [
       true,
       {

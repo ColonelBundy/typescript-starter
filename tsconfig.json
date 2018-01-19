@@ -14,10 +14,10 @@
         "preserveConstEnums": true,
         "suppressImplicitAnyIndexErrors": true,
         "outDir": "dist",
-        "baseUrl": "./src/app",
+        "baseUrl": "src",
         "paths": {
             "*": [
-                "*"
+                "src/*"
             ]
         }
     },
