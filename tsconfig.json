@@ -7,6 +7,8 @@
         "isolatedModules": false,
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
         "declaration": false,
         "noImplicitAny": false,
         "removeComments": true,
@@ -22,8 +24,9 @@
         }
     },
     "exclude": [
-        "node_modules",
-        "typings/main",
-        "typings/main.d.ts"
+        "node_modules"
+    ],
+    "include": [
+        "src/**/*"
     ]
 }

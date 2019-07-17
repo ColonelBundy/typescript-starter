@@ -1,11 +1,13 @@
-import express = require('express');
-const app = express()
+import * as http from 'http';
+import { AddressInfo } from 'net';
 
-app.get('/', function (req, res) {
-  res.send('Hello world')
-})
-
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!')
+const server = http.createServer((req, res) => {
+  res.write('hi');
+  res.end();
 });
 
+server.listen(0, 'localhost', function() {
+  const adress = server.address() as AddressInfo;
+
+  console.log('Port', adress.port);
+});
