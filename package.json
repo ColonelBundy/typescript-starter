@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "npm run clean && tsc",
     "clean": "rimraf dist/*",
     "watch": "nodemon",
     "watch-debug": "nodemon --inspect"
