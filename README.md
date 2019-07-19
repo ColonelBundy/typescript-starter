@@ -3,15 +3,15 @@
 ## Running the example
 
 ```
-yarn install
-yarn dev
+npm install
+npm run dev
 ```
 
 ## License
 ```
 MIT License
 
-Copyright (c) 2017 Colonelbundy (colonelbundy@gmail.com)
+Copyright (c) 2019 Colonelbundy (colonelbundy@gmail.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
